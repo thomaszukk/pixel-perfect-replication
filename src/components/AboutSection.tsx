@@ -11,8 +11,8 @@ const AboutSection = () => {
         }}
       >
         <div className="flex flex-col md:flex-row items-stretch px-[60px] py-[50px] gap-10">
-          {/* Left column */}
-          <div className="flex-1 flex flex-col justify-center">
+          {/* Left column - same dimensions as image */}
+          <div className="md:w-[360px] flex-shrink-0 flex flex-col justify-center">
             <h2
               className="text-[22px] font-bold leading-tight mb-5"
               style={{ color: "#0B132B" }}
@@ -45,11 +45,11 @@ const AboutSection = () => {
           </div>
 
           {/* Right column */}
-          <div className="flex-shrink-0 flex items-center justify-center">
+          <div className="md:w-[360px] flex-shrink-0 flex items-center justify-center">
             <img
               src={sectionImage}
               alt="Mapa com dados geográficos"
-              className="w-full md:w-[360px] h-auto object-cover"
+              className="w-full h-full object-cover"
               style={{ borderRadius: "20px" }}
             />
           </div>
