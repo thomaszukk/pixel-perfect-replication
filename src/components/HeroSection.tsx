@@ -2,7 +2,7 @@ import heroBg from "@/assets/hero-bg.png";
 
 const HeroSection = () => {
   return (
-    <section className="relative w-full h-screen bg-white">
+    <section className="relative w-full bg-white" style={{ height: "115vh" }}>
       {/* Inner container with rounded corner */}
       <div
         className="relative w-full h-full flex items-center justify-center overflow-hidden"
