@@ -16,7 +16,7 @@ const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <nav className="absolute top-0 left-0 right-0 z-50 px-6 lg:px-20 py-6">
+    <nav className="fixed top-0 left-0 right-0 z-50 px-6 lg:px-20 py-6">
       <div className="max-w-[1400px] mx-auto flex items-center justify-between">
         <a href="#">
           <img src={logoZukk} alt="ZUKK" className="h-8 md:h-10" />
