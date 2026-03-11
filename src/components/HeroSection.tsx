@@ -2,51 +2,54 @@ import heroBg from "@/assets/hero-bg.png";
 
 const HeroSection = () => {
   return (
-    <section
-      className="relative w-full h-screen flex items-center justify-center overflow-hidden"
-      style={{ borderRadius: "0 0 150px 0" }}
-    >
-      {/* Background image */}
+    <section className="relative w-full h-screen bg-white">
+      {/* Inner container with rounded corner */}
       <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroBg})` }}
-      />
+        className="relative w-full h-full flex items-center justify-center overflow-hidden"
+        style={{ borderRadius: "0 0 150px 0" }}
+      >
+        {/* Background image */}
+        <div
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: `url(${heroBg})` }}
+        />
 
-      {/* Dark overlay */}
-      <div
-        className="absolute inset-0"
-        style={{ backgroundColor: "rgba(17, 18, 25, 0.4)" }}
-      />
+        {/* Dark overlay */}
+        <div
+          className="absolute inset-0"
+          style={{ backgroundColor: "rgba(17, 18, 25, 0.4)" }}
+        />
 
-      {/* Content */}
-      <div className="relative z-10 max-w-[900px] mx-auto text-center px-6 pt-40 pb-20">
-        <h1 className="text-4xl md:text-[48px] font-bold leading-tight mb-6" style={{ color: "white" }}>
-          Decisões Inteligentes
-          <br />
-          Começam no Mapa
-        </h1>
+        {/* Content */}
+        <div className="relative z-10 max-w-[900px] mx-auto text-center px-6 mt-16">
+          <h1 className="text-4xl md:text-[48px] font-bold leading-tight mb-6" style={{ color: "white" }}>
+            Decisões Inteligentes
+            <br />
+            Começam no Mapa
+          </h1>
 
-        <p className="text-base md:text-2xl font-light leading-relaxed mb-10 max-w-[750px] mx-auto" style={{ color: "rgba(255,255,255,0.85)" }}>
-          Desbloqueamos o poder da{" "}
-          <span className="font-semibold">inteligência geográfica</span>,
-          transformando dados em insights precisos para decisões estratégicas
-        </p>
+          <p className="text-lg md:text-[22px] font-light leading-relaxed mb-10 max-w-[850px] mx-auto" style={{ color: "rgba(255,255,255,0.85)" }}>
+            Desbloqueamos o poder da{" "}
+            <span className="font-semibold">inteligência geográfica</span>,
+            {" "}transformando dados em insights precisos para decisões estratégicas
+          </p>
 
-        <div className="flex items-center justify-center gap-4 flex-wrap">
-          <a
-            href="#solucoes"
-            className="px-10 py-3.5 rounded-full text-base font-semibold transition-all hover:opacity-90"
-            style={{ backgroundColor: "#09A5C1", color: "white" }}
-          >
-            Saiba mais
-          </a>
-          <a
-            href="#contato"
-            className="px-10 py-3.5 rounded-full text-base font-semibold border-2 transition-all hover:bg-white/10"
-            style={{ borderColor: "white", color: "white" }}
-          >
-            Fale conosco
-          </a>
+          <div className="flex items-center justify-center gap-4 flex-wrap">
+            <a
+              href="#solucoes"
+              className="px-10 py-3.5 rounded-full text-base font-semibold transition-all hover:opacity-90"
+              style={{ backgroundColor: "#09A5C1", color: "white" }}
+            >
+              Saiba mais
+            </a>
+            <a
+              href="#contato"
+              className="px-10 py-3.5 rounded-full text-base font-semibold border-2 transition-all hover:bg-white/10"
+              style={{ borderColor: "white", color: "white" }}
+            >
+              Fale conosco
+            </a>
+          </div>
         </div>
       </div>
     </section>
