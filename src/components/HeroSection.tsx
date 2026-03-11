@@ -35,7 +35,7 @@ const HeroSection = () => {
         <div className="flex items-center justify-center gap-4 flex-wrap">
           <a
             href="#solucoes"
-            className="px-8 py-3 rounded-full text-sm font-semibold transition-all hover:opacity-90"
+            className="px-10 py-3.5 rounded-full text-base font-semibold transition-all hover:opacity-90"
             style={{ backgroundColor: "#09A5C1", color: "white" }}
           >
             Saiba mais
