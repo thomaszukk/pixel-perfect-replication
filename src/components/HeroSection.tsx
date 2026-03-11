@@ -2,11 +2,11 @@ import heroBg from "@/assets/hero-bg.png";
 
 const HeroSection = () => {
   return (
-    <section className="relative w-full h-screen bg-white">
+    <section className="relative w-full bg-white" style={{ paddingBottom: "120px" }}>
       {/* Inner container with rounded corner */}
       <div
-        className="relative w-full h-full flex items-center justify-center overflow-hidden"
-        style={{ borderRadius: "0 0 150px 0" }}
+        className="relative w-full flex items-center justify-center overflow-hidden"
+        style={{ borderRadius: "0 0 150px 0", height: "100vh" }}
       >
         {/* Background image */}
         <div
