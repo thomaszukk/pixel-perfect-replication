@@ -28,7 +28,7 @@ const Navbar = () => {
             <li key={item.label}>
               <a
                 href={item.href}
-                className={`text-sm font-medium transition-opacity hover:opacity-100 ${
+                className={`text-base font-medium transition-opacity hover:opacity-100 ${
                   item.active ? "opacity-100" : "opacity-70"
                 }`}
                 style={{ color: "white" }}

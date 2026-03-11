@@ -42,7 +42,7 @@ const HeroSection = () => {
           </a>
           <a
             href="#contato"
-            className="px-8 py-3 rounded-full text-sm font-semibold border-2 transition-all hover:bg-white/10"
+            className="px-10 py-3.5 rounded-full text-base font-semibold border-2 transition-all hover:bg-white/10"
             style={{ borderColor: "white", color: "white" }}
           >
             Fale conosco
