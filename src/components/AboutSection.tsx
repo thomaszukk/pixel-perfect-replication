@@ -10,7 +10,7 @@ const AboutSection = () => {
           boxShadow: "0 15px 70px -10px rgba(0, 0, 0, 0.15)",
         }}
       >
-        <div className="flex flex-col md:flex-row items-stretch px-[60px] py-[50px] gap-10">
+        <div className="flex flex-col md:flex-row items-stretch justify-center px-[60px] py-[50px] gap-10">
           {/* Left column - same dimensions as image */}
           <div className="md:w-[360px] flex-shrink-0 flex flex-col justify-center">
             <h2
