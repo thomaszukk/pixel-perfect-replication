@@ -19,7 +19,7 @@ const HeroSection = () => {
       />
 
       {/* Content */}
-      <div className="relative z-10 max-w-[900px] mx-auto text-center px-6 py-32">
+      <div className="relative z-10 max-w-[900px] mx-auto text-center px-6 pt-40 pb-20">
         <h1 className="text-4xl md:text-[48px] font-bold leading-tight mb-6" style={{ color: "white" }}>
           Decisões Inteligentes
           <br />
