@@ -2,7 +2,7 @@ import sectionImage from "@/assets/section2-image.png";
 
 const AboutSection = () => {
   return (
-    <section className="relative z-10 -mt-[220px] px-6 pb-16">
+    <section className="relative z-10 -mt-[120px] px-6 pb-16">
       <div
         className="max-w-[1142px] mx-auto bg-white overflow-hidden"
         style={{
