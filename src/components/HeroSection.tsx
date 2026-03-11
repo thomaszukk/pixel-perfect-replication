@@ -3,7 +3,7 @@ import heroBg from "@/assets/hero-bg.png";
 const HeroSection = () => {
   return (
     <section
-      className="relative w-full min-h-[648px] flex items-center justify-center overflow-hidden"
+      className="relative w-full h-screen flex items-center justify-center overflow-hidden"
       style={{ borderRadius: "0 0 150px 0" }}
     >
       {/* Background image */}
