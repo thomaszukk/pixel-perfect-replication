@@ -10,9 +10,9 @@ const AboutSection = () => {
           boxShadow: "0 15px 70px -10px rgba(0, 0, 0, 0.15)",
         }}
       >
-        <div className="flex flex-col md:flex-row">
+        <div className="flex flex-col md:flex-row px-[60px] py-[50px] gap-10">
           {/* Left column */}
-          <div className="flex-1 p-[30px] flex flex-col justify-center">
+          <div className="flex-1 flex flex-col justify-center">
             <h2
               className="text-[22px] font-bold leading-tight mb-5"
               style={{ color: "#0B132B" }}
@@ -25,11 +25,8 @@ const AboutSection = () => {
               className="text-[16px] font-light leading-relaxed mb-8"
               style={{ color: "#191D2A" }}
             >
-              Somos uma empresa de inteligência geográfica que combina
-              tecnologia, dados e estratégia para ajudar negócios a tomarem
-              decisões mais inteligentes. Da escolha do ponto ideal à
-              compreensão profunda do mercado, entregamos soluções sob medida
-              que geram impacto real.
+              Combinamos tecnologia, consultoria e segurança para entregar
+              soluções que otimizam operações e potencializam resultados.
             </p>
             <div>
               <a
@@ -48,11 +45,11 @@ const AboutSection = () => {
           </div>
 
           {/* Right column */}
-          <div className="flex-shrink-0 p-[30px] flex items-center justify-center">
+          <div className="flex-shrink-0 flex items-center justify-center">
             <img
               src={sectionImage}
               alt="Mapa com dados geográficos"
-              className="w-full md:w-[320px] h-auto object-cover"
+              className="w-full md:w-[360px] h-auto object-cover"
               style={{ borderRadius: "20px" }}
             />
           </div>
