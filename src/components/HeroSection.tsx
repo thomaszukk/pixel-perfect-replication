@@ -5,7 +5,7 @@ const HeroSection = () => {
     <section className="relative w-full h-screen bg-white">
       {/* Inner container with rounded corner */}
       <div
-        className="relative w-full h-full flex items-center justify-center overflow-hidden"
+        className="relative w-full h-full flex items-center justify-center"
         style={{ borderRadius: "0 0 150px 0" }}
       >
         {/* Background image */}
