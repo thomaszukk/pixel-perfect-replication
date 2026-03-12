@@ -4,7 +4,7 @@ const PartnersSection = () => {
   return (
     <section className="bg-white px-6 py-16 md:py-24">
       <div className="max-w-[1232px] mx-auto">
-        <div className="flex flex-col md:flex-row items-stretch gap-0">
+        <div className="flex flex-col md:flex-row items-center gap-0">
           {/* Left column - Heading */}
           <div className="md:w-[40%] flex items-center px-6 md:px-[30px]">
             <div className="py-4">
