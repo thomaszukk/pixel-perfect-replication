@@ -17,6 +17,12 @@ const navItems = [
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const location = useLocation();
+
+  const isActive = (href: string) => {
+    if (href.startsWith("#")) return false;
+    return location.pathname === href;
+  };
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 50);
