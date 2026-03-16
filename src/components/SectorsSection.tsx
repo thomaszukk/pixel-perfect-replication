@@ -55,8 +55,8 @@ const SectorsSection = () => {
 
               {/* Divider line */}
               <div
-                className="w-full h-[4px] mb-4"
-                style={{ backgroundColor: "#09A5C1" }}
+                className="w-1/3 h-[4px] mx-auto mb-4"
+                style={{ backgroundColor: "white" }}
               />
 
               {/* Title */}
