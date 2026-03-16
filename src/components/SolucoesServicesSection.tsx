@@ -90,7 +90,6 @@ const SolucoesServicesSection = () => {
                   <div className="w-[80px] h-[50px] flex items-center justify-center [&_svg_path]:transition-colors [&_svg_path]:duration-300 group-hover:[&_svg_path]:fill-[#3DE8E0]">
                     {service.icon}
                   </div>
-                  </div>
 
                   {/* Title */}
                   <h4
