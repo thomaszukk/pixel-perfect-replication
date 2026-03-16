@@ -37,8 +37,8 @@ const CaseTelecomSection = () => {
           <img
             src={caseTelecomImg}
             alt="Case Telecom - Globo digital com redes de conexão"
-            className="w-full h-full object-cover rounded-bl-[40px]"
-            style={{ position: "absolute", inset: 0 }}
+            className="w-full h-full object-contain rounded-br-[40px]"
+            style={{ position: "absolute", inset: 0, backgroundColor: "#0B132B" }}
           />
         </div>
       </div>
