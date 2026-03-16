@@ -2,7 +2,7 @@ import partnersLogos from "@/assets/partners-logos.webp";
 
 const PartnersSection = () => {
   return (
-    <section className="bg-white px-6 py-16 md:py-24">
+    <section className="bg-background px-6 py-16 md:py-24">
       <div className="max-w-[1232px] mx-auto">
         <div className="flex flex-col md:flex-row items-center gap-0">
           {/* Left column - Heading */}
