@@ -34,7 +34,7 @@ const Navbar = () => {
           <img
             src={scrolled ? logoZukkBlue : logoZukk}
             alt="ZUKK"
-            className="h-8 md:h-10 transition-all duration-300"
+            className="h-8 md:h-10 transition-none"
           />
         </a>
 
