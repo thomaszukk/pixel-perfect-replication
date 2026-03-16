@@ -7,6 +7,7 @@ import HereDifferentialsSection from "@/components/HereDifferentialsSection";
 import BeneficiosSolucaoSection from "@/components/BeneficiosSolucaoSection";
 import MonitoramentoFrotasSection from "@/components/MonitoramentoFrotasSection";
 import RoutePlanningDifferentialsSection from "@/components/RoutePlanningDifferentialsSection";
+import AMSSection from "@/components/AMSSection";
 import solucoesBg from "@/assets/solucoes-hero-bg.png";
 
 const Solucoes = () => {
