@@ -33,7 +33,7 @@ const differentials = [
 
 const HereDifferentialsSection = () => {
   return (
-    <section className="w-full px-6 py-10 bg-background">
+    <section className="w-full px-6 pt-[10px] pb-10 bg-background">
       <div className="max-w-[1232px] mx-auto">
         {/* Heading */}
         <div className="px-[30px] mb-4">
