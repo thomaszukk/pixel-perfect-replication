@@ -48,7 +48,7 @@ const services = [
 
 const SolucoesServicesSection = () => {
   return (
-    <section className="w-full px-6 pt-[10px] pb-[65px] bg-white">
+    <section className="w-full px-6 pt-[60px] pb-[65px] bg-white">
       <div className="max-w-[1232px] mx-auto">
         {/* Heading */}
         <div className="text-center mb-5">
