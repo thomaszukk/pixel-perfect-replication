@@ -40,7 +40,7 @@ const LocationIntelligenceSection = () => {
       </div>
 
       {/* CTA */}
-      <div className="max-w-[1232px] mx-auto px-6 pb-6 flex justify-end">
+      <div className="px-10 pb-5 flex justify-end">
         <a
           href="#"
           className="flex items-center gap-1 text-white text-sm font-medium hover:opacity-80 transition-opacity"
@@ -49,6 +49,7 @@ const LocationIntelligenceSection = () => {
           <ChevronDown size={16} />
           Conheças as soluções
         </a>
+      </div>
       </div>
     </section>
   );
