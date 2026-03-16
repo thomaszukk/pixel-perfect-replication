@@ -26,7 +26,7 @@ const SectorsSection = () => {
         {/* Divider */}
         <div
           className="w-[120px] h-[4px] mx-auto mb-6"
-          style={{ backgroundColor: "#09A5C1" }}
+          style={{ backgroundColor: "white" }}
         />
 
         {/* Subtitle */}
