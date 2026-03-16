@@ -92,9 +92,9 @@ const OverlaySection = () => {
         </div>
 
         {/* Service cards */}
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-6 md:gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-6 md:gap-4 justify-items-center">
           {services.map((service) => (
-            <div key={service.title} className="flex flex-col items-start gap-5">
+            <div key={service.title} className="flex flex-col items-center text-center gap-5">
               {/* Icon */}
               <div className="w-[50px] h-[50px] flex items-start">{service.icon}</div>
 
