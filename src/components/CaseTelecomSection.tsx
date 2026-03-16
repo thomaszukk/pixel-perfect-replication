@@ -33,12 +33,12 @@ const CaseTelecomSection = () => {
         </div>
 
         {/* Right: Image */}
-        <div className="w-full md:w-1/2 h-[300px] md:h-[540px] relative">
+        <div className="w-full md:w-1/2 h-[300px] md:h-[540px] relative overflow-hidden rounded-br-[40px]" style={{ backgroundColor: "#0B132B" }}>
           <img
             src={caseTelecomImg}
             alt="Case Telecom - Globo digital com redes de conexão"
-            className="w-full h-full object-cover rounded-br-[40px]"
-            style={{ position: "absolute", inset: 0, objectPosition: "70% center" }}
+            className="h-[110%] w-auto max-w-none"
+            style={{ position: "absolute", top: 0, left: 0 }}
           />
         </div>
       </div>
