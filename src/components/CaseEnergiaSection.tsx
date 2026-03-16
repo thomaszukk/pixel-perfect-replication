@@ -24,10 +24,6 @@ const CaseEnergiaSection = () => {
               Case Energia
             </h2>
 
-            {/* Divider */}
-            <div className="w-[184px] py-0.5">
-              <div className="h-[3px]" style={{ backgroundColor: "#0B132B" }} />
-            </div>
 
             <p
               className="text-base md:text-lg font-light leading-[1.4] pb-[30px]"
