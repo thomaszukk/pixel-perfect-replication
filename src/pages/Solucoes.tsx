@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SolucoesServicesSection from "@/components/SolucoesServicesSection";
+import LocationIntelligenceSection from "@/components/LocationIntelligenceSection";
 import solucoesBg from "@/assets/solucoes-hero-bg.png";
 
 const Solucoes = () => {
@@ -24,6 +25,7 @@ const Solucoes = () => {
       </section>
 
       <SolucoesServicesSection />
+      <LocationIntelligenceSection />
 
       <Footer />
     </div>
