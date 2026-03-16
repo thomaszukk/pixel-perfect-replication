@@ -1,6 +1,7 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import logoZukk from "@/assets/logo-zukk.png";
+import logoZukkBlue from "@/assets/logo-zukk-blue.png";
 
 const navItems = [
   { label: "Home", href: "#", active: true },
@@ -14,12 +15,27 @@ const navItems = [
 
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 50);
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 px-6 lg:px-20 py-6">
+    <nav
+      className={`fixed top-0 left-0 right-0 z-50 px-6 lg:px-20 py-6 transition-all duration-300 ${
+        scrolled ? "bg-white shadow-md py-4" : ""
+      }`}
+    >
       <div className="max-w-[1400px] mx-auto flex items-center justify-between">
         <a href="#">
-          <img src={logoZukk} alt="ZUKK" className="h-8 md:h-10" />
+          <img
+            src={scrolled ? logoZukkBlue : logoZukk}
+            alt="ZUKK"
+            className="h-8 md:h-10 transition-all duration-300"
+          />
         </a>
 
         {/* Desktop nav */}
@@ -28,10 +44,16 @@ const Navbar = () => {
             <li key={item.label}>
               <a
                 href={item.href}
-                className={`text-base font-medium transition-opacity hover:opacity-100 ${
-                  item.active ? "opacity-100" : "opacity-70"
+                className={`text-base font-medium transition-all duration-300 hover:opacity-100 ${
+                  scrolled
+                    ? item.active
+                      ? "text-[#09A5C1] opacity-100"
+                      : "text-[#0B132B] opacity-70 hover:text-[#09A5C1]"
+                    : item.active
+                      ? "opacity-100"
+                      : "opacity-70"
                 }`}
-                style={{ color: "white" }}
+                style={scrolled ? {} : { color: "white" }}
               >
                 {item.label}
               </a>
@@ -41,7 +63,7 @@ const Navbar = () => {
 
         {/* Mobile toggle */}
         <button
-          className="lg:hidden text-foreground"
+          className={`lg:hidden transition-colors duration-300 ${scrolled ? "text-[#0B132B]" : "text-white"}`}
           onClick={() => setMobileOpen(!mobileOpen)}
           aria-label="Toggle menu"
         >
@@ -51,16 +73,22 @@ const Navbar = () => {
 
       {/* Mobile menu */}
       {mobileOpen && (
-        <div className="lg:hidden mt-4 pb-4">
+        <div className={`lg:hidden mt-4 pb-4 ${scrolled ? "bg-white" : ""}`}>
           <ul className="flex flex-col gap-4">
             {navItems.map((item) => (
               <li key={item.label}>
                 <a
                   href={item.href}
                   className={`text-sm font-medium ${
-                    item.active ? "opacity-100" : "opacity-70"
+                    scrolled
+                      ? item.active
+                        ? "text-[#09A5C1]"
+                        : "text-[#0B132B] opacity-70"
+                      : item.active
+                        ? "opacity-100"
+                        : "opacity-70"
                   }`}
-                  style={{ color: "white" }}
+                  style={scrolled ? {} : { color: "white" }}
                   onClick={() => setMobileOpen(false)}
                 >
                   {item.label}
