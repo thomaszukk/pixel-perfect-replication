@@ -15,7 +15,7 @@ const ContactSection = () => {
       {/* Content */}
       <div className="relative z-10 flex flex-col justify-center h-full px-8 md:px-16 lg:px-24 xl:px-40 max-w-[1232px] mx-auto">
         <h2
-          className="text-3xl md:text-[48px] font-bold leading-[1.14] mb-6"
+          className="text-3xl md:text-[48px] font-bold leading-[1.14] mb-6 whitespace-nowrap"
           style={{ color: "#FFFFFF", fontFamily: "'Poppins', sans-serif" }}
         >
           Fale com nosso time de especialistas
