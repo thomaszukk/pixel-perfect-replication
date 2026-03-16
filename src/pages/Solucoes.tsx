@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import SolucoesServicesSection from "@/components/SolucoesServicesSection";
 import LocationIntelligenceSection from "@/components/LocationIntelligenceSection";
 import GeocodeSection from "@/components/GeocodeSection";
+import HereDifferentialsSection from "@/components/HereDifferentialsSection";
 import solucoesBg from "@/assets/solucoes-hero-bg.png";
 
 const Solucoes = () => {
