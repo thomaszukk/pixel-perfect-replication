@@ -6,6 +6,7 @@ import GeocodeSection from "@/components/GeocodeSection";
 import HereDifferentialsSection from "@/components/HereDifferentialsSection";
 import BeneficiosSolucaoSection from "@/components/BeneficiosSolucaoSection";
 import MonitoramentoFrotasSection from "@/components/MonitoramentoFrotasSection";
+import RoutePlanningDifferentialsSection from "@/components/RoutePlanningDifferentialsSection";
 import solucoesBg from "@/assets/solucoes-hero-bg.png";
 
 const Solucoes = () => {
@@ -34,6 +35,7 @@ const Solucoes = () => {
       <HereDifferentialsSection />
       <BeneficiosSolucaoSection />
       <MonitoramentoFrotasSection />
+      <RoutePlanningDifferentialsSection />
 
       <Footer />
     </div>
