@@ -53,10 +53,10 @@ const Navbar = () => {
                 href={item.href}
                 className={`text-base font-medium transition-all duration-300 hover:opacity-100 ${
                   scrolled
-                    ? item.active
+                    ? isActive(item.href)
                       ? "text-[#09A5C1] opacity-100"
                       : "text-[#0B132B] opacity-70 hover:text-[#09A5C1]"
-                    : item.active
+                    : isActive(item.href)
                       ? "opacity-100"
                       : "opacity-70"
                 }`}
