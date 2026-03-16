@@ -5,7 +5,7 @@ import logoZukkBlue from "@/assets/logo-zukk-blue.png";
 
 const navItems = [
   { label: "Home", href: "#", active: true },
-  { label: "Soluções", href: "#solucoes" },
+  { label: "Soluções", href: "/solucoes" },
   { label: "Indústrias", href: "#industrias" },
   { label: "Cases", href: "#cases" },
   { label: "Quem Somos", href: "#quem-somos" },
