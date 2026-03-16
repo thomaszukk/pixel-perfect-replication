@@ -25,6 +25,7 @@ const Solucoes = () => {
       </section>
 
       <SolucoesServicesSection />
+      <LocationIntelligenceSection />
 
       <Footer />
     </div>
