@@ -35,7 +35,7 @@ const MonitoramentoFrotasSection = () => {
           {/* Right: Image */}
           <div className="flex-1 flex justify-center px-2 py-[15px]">
             <div
-              className="w-full max-w-[584px] overflow-hidden"
+              className="w-full max-w-[680px] overflow-hidden"
               style={{
                 borderRadius: "25px",
                 boxShadow: "0 0 10px 2px rgba(0, 0, 0, 0.50)",
