@@ -35,6 +35,7 @@ const Solucoes = () => {
       <HereDifferentialsSection />
       <BeneficiosSolucaoSection />
       <MonitoramentoFrotasSection />
+      <RoutePlanningDifferentialsSection />
 
       <Footer />
     </div>
