@@ -3,7 +3,7 @@ import contactBg from "@/assets/contact-bg.png";
 
 const ContactSection = () => {
   return (
-    <section className="w-full relative h-[500px] overflow-hidden">
+    <section className="w-full relative h-[380px] overflow-hidden">
       {/* Background image with parallax-like fixed attachment */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-fixed"
@@ -26,30 +26,30 @@ const ContactSection = () => {
 
         {/* Contact list */}
         <div className="flex flex-col gap-5">
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3 whitespace-nowrap">
             <Phone className="w-[22px] h-[22px] text-white flex-shrink-0" />
             <span
-              className="text-base font-light leading-[1.4]"
+              className="text-base font-light"
               style={{ color: "#FFFFFF", fontFamily: "'Poppins', sans-serif" }}
             >
               + 55 (11) 91752-9281
             </span>
           </div>
 
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3 whitespace-nowrap">
             <Mail className="w-[28px] h-[22px] text-white flex-shrink-0" />
             <span
-              className="text-base font-light leading-[1.4]"
+              className="text-base font-light"
               style={{ color: "#FFFFFF", fontFamily: "'Poppins', sans-serif" }}
             >
               contato@zukk.com.br
             </span>
           </div>
 
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3 whitespace-nowrap">
             <MapPin className="w-[22px] h-[22px] text-white flex-shrink-0" />
             <span
-              className="text-base font-light leading-[1.4]"
+              className="text-base font-light"
               style={{ color: "#FFFFFF", fontFamily: "'Poppins', sans-serif" }}
             >
               Av. das Nações Unidas, nº 14.401 – Sala 2902 – Cond. Parque da Cidade – Torre Tarumã – São Paulo/SP – CEP: 04794-000
