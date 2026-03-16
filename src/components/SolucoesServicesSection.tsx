@@ -82,12 +82,12 @@ const SolucoesServicesSection = () => {
               className="w-full sm:w-1/2 md:w-[205px] py-[15px] px-0 flex justify-center"
             >
               <div
-                className="flex-1 flex justify-center items-center p-[30px] bg-white"
+                className="flex-1 flex justify-center items-center p-[30px] bg-white group transition-all duration-300"
                 style={{ boxShadow: "0 19px 38px 0 rgba(0, 0, 0, 0.16)" }}
               >
                 <div className="flex flex-col items-center gap-5 w-full">
                   {/* Icon */}
-                  <div className="w-[80px] h-[50px] flex items-center justify-center">
+                  <div className="w-[80px] h-[50px] flex items-center justify-center [&_svg_path]:transition-colors [&_svg_path]:duration-300 group-hover:[&_svg_path]:fill-[#3DE8E0]">
                     {service.icon}
                   </div>
 
