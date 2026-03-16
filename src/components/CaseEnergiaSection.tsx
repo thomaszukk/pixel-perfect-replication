@@ -5,7 +5,7 @@ const CaseEnergiaSection = () => {
     <section className="w-full">
       <div className="flex flex-col md:flex-row">
         {/* Left: Image */}
-        <div className="w-full md:w-1/2 min-h-[300px] md:min-h-[543px] relative">
+        <div className="w-full md:w-1/2 h-[300px] md:h-[440px] relative">
           <img
             src={caseEnergiaImg}
             alt="Case Energia - Turbinas eólicas ao pôr do sol"
