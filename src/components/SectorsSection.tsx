@@ -34,9 +34,7 @@ const SectorsSection = () => {
           className="text-base md:text-lg font-light leading-relaxed max-w-[680px] mx-auto mb-14"
           style={{ color: "rgba(255,255,255,0.7)" }}
         >
-          Aplicamos o poder da inteligência geográfica para resolver desafios específicos de cada setor.
-          <br />
-          Confira como transformamos dados em resultados reais para nossos clientes.
+          Aplicamos o poder da inteligência geográfica para resolver desafios específicos de cada setor. Confira como transformamos dados em resultados reais para nossos clientes.
         </p>
 
         {/* Cards */}
