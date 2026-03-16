@@ -4,7 +4,7 @@ const GeocodeSection = () => {
   return (
     <section className="w-full px-6 py-16 md:py-20 bg-background">
       <div className="max-w-[1232px] mx-auto">
-        <div className="flex flex-col md:flex-row items-start gap-8">
+        <div className="flex flex-col md:flex-row items-center gap-8">
           {/* Left: Text */}
           <div className="flex-1 flex flex-col gap-[55px] px-[30px] py-[15px]">
             <h2
