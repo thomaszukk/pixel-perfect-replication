@@ -25,7 +25,7 @@ const SectorsSection = () => {
 
         {/* Divider */}
         <div
-          className="w-16 h-[3px] mx-auto mb-6"
+          className="w-[120px] h-[4px] mx-auto mb-6"
           style={{ backgroundColor: "#09A5C1" }}
         />
 
