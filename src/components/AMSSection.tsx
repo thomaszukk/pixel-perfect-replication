@@ -8,7 +8,7 @@ const AMSSection = () => {
           {/* Left: Text */}
           <div className="flex-1 flex flex-col gap-[55px] px-[30px] py-[15px]">
             <h2
-              className="text-2xl md:text-[38px] leading-[1.2] tracking-tight"
+              className="text-[19px] md:text-[38px] leading-[1.2] tracking-tight"
               style={{ color: "#0B132B", fontFamily: "'Poppins', sans-serif" }}
             >
               <strong className="font-bold">
