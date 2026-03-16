@@ -4,6 +4,7 @@ import SolucoesServicesSection from "@/components/SolucoesServicesSection";
 import LocationIntelligenceSection from "@/components/LocationIntelligenceSection";
 import GeocodeSection from "@/components/GeocodeSection";
 import HereDifferentialsSection from "@/components/HereDifferentialsSection";
+import BeneficiosSolucaoSection from "@/components/BeneficiosSolucaoSection";
 import solucoesBg from "@/assets/solucoes-hero-bg.png";
 
 const Solucoes = () => {
