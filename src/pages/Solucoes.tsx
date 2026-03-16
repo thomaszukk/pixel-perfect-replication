@@ -33,6 +33,7 @@ const Solucoes = () => {
       <GeocodeSection />
       <HereDifferentialsSection />
       <BeneficiosSolucaoSection />
+      <MonitoramentoFrotasSection />
 
       <Footer />
     </div>
