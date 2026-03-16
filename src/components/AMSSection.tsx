@@ -2,7 +2,7 @@ import amsBg from "@/assets/ams-bg.png";
 
 const AMSSection = () => {
   return (
-    <section className="w-full px-6 py-16 md:py-20 bg-white">
+    <section className="w-full px-6 pt-6 pb-16 md:pt-8 md:pb-20 bg-white">
       <div className="max-w-[1232px] mx-auto">
         <div className="flex flex-col md:flex-row items-center gap-8">
           {/* Left: Text */}
