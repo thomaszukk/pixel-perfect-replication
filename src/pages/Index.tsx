@@ -5,6 +5,7 @@ import PartnersSection from "@/components/PartnersSection";
 import SectorsSection from "@/components/SectorsSection";
 import OverlaySection from "@/components/OverlaySection";
 import CaseEnergiaSection from "@/components/CaseEnergiaSection";
+import CaseTelecomSection from "@/components/CaseTelecomSection";
 
 const Index = () => {
   return (
@@ -16,6 +17,7 @@ const Index = () => {
       <SectorsSection />
       <OverlaySection />
       <CaseEnergiaSection />
+      <CaseTelecomSection />
     </div>
   );
 };
