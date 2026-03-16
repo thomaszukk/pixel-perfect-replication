@@ -10,12 +10,15 @@ const Solucoes = () => {
       {/* Hero Section */}
       <section
         className="relative w-full overflow-hidden"
-        style={{ borderRadius: "0 0 150px 0" }}
+        style={{
+          borderRadius: "0 0 150px 0",
+          height: "420px",
+        }}
       >
         <img
           src={solucoesBg}
           alt="Conectando o futuro com Soluções Inteligentes"
-          className="w-full h-auto block"
+          className="w-full h-full object-cover object-center block"
         />
       </section>
 
