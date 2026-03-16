@@ -1,10 +1,11 @@
 import { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import logoZukk from "@/assets/logo-zukk.png";
 import logoZukkBlue from "@/assets/logo-zukk-blue.png";
 
 const navItems = [
-  { label: "Home", href: "#", active: true },
+  { label: "Home", href: "/" },
   { label: "Soluções", href: "/solucoes" },
   { label: "Indústrias", href: "#industrias" },
   { label: "Cases", href: "#cases" },
