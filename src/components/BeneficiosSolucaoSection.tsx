@@ -58,7 +58,7 @@ const benefits = [
 
 const BeneficiosSolucaoSection = () => {
   return (
-    <section className="w-full px-6 pb-[50px] bg-background">
+    <section className="w-full px-6 pt-[10px] pb-[50px] bg-background">
       <div className="max-w-[1232px] mx-auto">
         {/* Heading */}
         <div className="px-[30px] mb-6">

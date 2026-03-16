@@ -2,7 +2,7 @@ import frotasBg from "@/assets/frotas-bg.png";
 
 const MonitoramentoFrotasSection = () => {
   return (
-    <section className="w-full px-6 py-16 md:py-20 bg-background">
+    <section className="w-full px-6 pt-[10px] pb-16 md:pb-20 bg-background">
       <div className="max-w-[1232px] mx-auto">
         <div className="flex flex-col md:flex-row items-center gap-8">
           {/* Left: Text */}
