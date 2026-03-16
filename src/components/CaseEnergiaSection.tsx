@@ -16,17 +16,16 @@ const CaseEnergiaSection = () => {
 
         {/* Right: Content */}
         <div className="w-full md:w-1/2 flex items-center justify-center px-8 py-16 md:px-16 lg:px-24 bg-background">
-          <div className="flex flex-col items-start gap-2.5 max-w-[614px]">
+          <div className="flex flex-col items-start max-w-[614px]">
             <h2
-              className="text-3xl md:text-[48px] font-bold leading-[1.14]"
+              className="text-3xl md:text-[48px] font-bold leading-[1.14] mb-6"
               style={{ color: "#0B132B", fontFamily: "'Poppins', sans-serif" }}
             >
               Case Energia
             </h2>
 
-
             <p
-              className="text-base md:text-lg font-light leading-[1.4] pb-[30px]"
+              className="text-base md:text-lg font-light leading-[1.4] mb-10"
               style={{ color: "#191D2A", fontFamily: "'Poppins', sans-serif" }}
             >
               Como a ZUKK aumentou a produtividade e reduziu interrupções em
