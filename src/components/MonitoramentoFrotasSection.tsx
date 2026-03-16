@@ -8,7 +8,7 @@ const MonitoramentoFrotasSection = () => {
           {/* Left: Text */}
           <div className="flex-1 flex flex-col gap-[55px] px-[30px] py-[15px]">
             <h2
-              className="text-3xl md:text-[48px] leading-[1.14] tracking-tight"
+              className="text-2xl md:text-[38px] leading-[1.2] tracking-tight"
               style={{ color: "#0B132B", fontFamily: "'Poppins', sans-serif" }}
             >
               <strong className="font-bold">Monitoramento de Frotas:</strong>{" "}
@@ -35,7 +35,7 @@ const MonitoramentoFrotasSection = () => {
           {/* Right: Image */}
           <div className="flex-1 flex justify-center px-2 py-[15px]">
             <div
-              className="w-full max-w-[584px] overflow-hidden"
+              className="w-full max-w-[680px] overflow-hidden"
               style={{
                 borderRadius: "25px",
                 boxShadow: "0 0 10px 2px rgba(0, 0, 0, 0.50)",
