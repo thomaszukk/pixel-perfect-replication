@@ -3,7 +3,7 @@ import contactBg from "@/assets/contact-bg.png";
 
 const ContactSection = () => {
   return (
-    <section className="w-full relative h-[500px] overflow-hidden">
+    <section className="w-full relative h-[380px] overflow-hidden">
       {/* Background image with parallax-like fixed attachment */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-fixed"
