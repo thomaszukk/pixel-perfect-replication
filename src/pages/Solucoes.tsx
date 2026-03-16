@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SolucoesServicesSection from "@/components/SolucoesServicesSection";
 import LocationIntelligenceSection from "@/components/LocationIntelligenceSection";
+import GeocodeSection from "@/components/GeocodeSection";
 import solucoesBg from "@/assets/solucoes-hero-bg.png";
 
 const Solucoes = () => {
