@@ -23,7 +23,7 @@ const differentials = [
 
 const RoutePlanningDifferentialsSection = () => {
   return (
-    <section className="w-full px-6 py-16 md:py-20 bg-muted/30">
+    <section className="w-full px-6 py-16 md:py-20 bg-white">
       <div className="max-w-[1232px] mx-auto">
         <h3
           className="text-[29px] font-bold leading-[36px] mb-8 px-[30px]"
