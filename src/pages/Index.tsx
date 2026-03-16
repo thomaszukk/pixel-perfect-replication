@@ -6,6 +6,7 @@ import SectorsSection from "@/components/SectorsSection";
 import OverlaySection from "@/components/OverlaySection";
 import CaseEnergiaSection from "@/components/CaseEnergiaSection";
 import CaseTelecomSection from "@/components/CaseTelecomSection";
+import ContactSection from "@/components/ContactSection";
 
 const Index = () => {
   return (
@@ -18,6 +19,7 @@ const Index = () => {
       <OverlaySection />
       <CaseEnergiaSection />
       <CaseTelecomSection />
+      <ContactSection />
     </div>
   );
 };
