@@ -7,6 +7,7 @@ import OverlaySection from "@/components/OverlaySection";
 import CaseEnergiaSection from "@/components/CaseEnergiaSection";
 import CaseTelecomSection from "@/components/CaseTelecomSection";
 import ContactSection from "@/components/ContactSection";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
@@ -20,6 +21,7 @@ const Index = () => {
       <CaseEnergiaSection />
       <CaseTelecomSection />
       <ContactSection />
+      <Footer />
     </div>
   );
 };
