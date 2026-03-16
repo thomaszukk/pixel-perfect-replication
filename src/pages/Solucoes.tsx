@@ -12,7 +12,7 @@ const Solucoes = () => {
         className="relative w-full overflow-hidden"
         style={{
           borderRadius: "0 0 150px 0",
-          height: "420px",
+          height: "485px",
         }}
       >
         <img
