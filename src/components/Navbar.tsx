@@ -88,10 +88,10 @@ const Navbar = () => {
                   href={item.href}
                   className={`text-sm font-medium ${
                     scrolled
-                      ? item.active
+                      ? isActive(item.href)
                         ? "text-[#09A5C1]"
                         : "text-[#0B132B] opacity-70"
-                      : item.active
+                      : isActive(item.href)
                         ? "opacity-100"
                         : "opacity-70"
                   }`}
