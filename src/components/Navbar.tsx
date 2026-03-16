@@ -1,10 +1,11 @@
 import { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import logoZukk from "@/assets/logo-zukk.png";
 import logoZukkBlue from "@/assets/logo-zukk-blue.png";
 
 const navItems = [
-  { label: "Home", href: "#", active: true },
+  { label: "Home", href: "/" },
   { label: "Soluções", href: "/solucoes" },
   { label: "Indústrias", href: "#industrias" },
   { label: "Cases", href: "#cases" },
@@ -16,6 +17,12 @@ const navItems = [
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const location = useLocation();
+
+  const isActive = (href: string) => {
+    if (href.startsWith("#")) return false;
+    return location.pathname === href;
+  };
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 50);
@@ -46,10 +53,10 @@ const Navbar = () => {
                 href={item.href}
                 className={`text-base font-medium transition-all duration-300 hover:opacity-100 ${
                   scrolled
-                    ? item.active
+                    ? isActive(item.href)
                       ? "text-[#09A5C1] opacity-100"
                       : "text-[#0B132B] opacity-70 hover:text-[#09A5C1]"
-                    : item.active
+                    : isActive(item.href)
                       ? "opacity-100"
                       : "opacity-70"
                 }`}
@@ -81,10 +88,10 @@ const Navbar = () => {
                   href={item.href}
                   className={`text-sm font-medium ${
                     scrolled
-                      ? item.active
+                      ? isActive(item.href)
                         ? "text-[#09A5C1]"
                         : "text-[#0B132B] opacity-70"
-                      : item.active
+                      : isActive(item.href)
                         ? "opacity-100"
                         : "opacity-70"
                   }`}
