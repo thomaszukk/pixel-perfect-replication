@@ -5,11 +5,12 @@ import { ChevronDown } from "lucide-react";
 
 const LocationIntelligenceSection = () => {
   return (
-    <section
-      className="w-full overflow-visible"
-      style={{ backgroundColor: "#0B132B" }}
-    >
-      <div className="max-w-[1232px] mx-auto flex flex-col md:flex-row items-stretch gap-8 md:gap-0 px-6 h-[300px]">
+    <section className="w-full overflow-visible px-6">
+      <div
+        className="max-w-[1232px] mx-auto overflow-visible"
+        style={{ backgroundColor: "#0B132B" }}
+      >
+      <div className="flex flex-col md:flex-row items-stretch gap-8 md:gap-0 px-10 h-[260px]">
         {/* Title */}
         <div className="md:w-[280px] flex-shrink-0 flex items-center">
           <h3
@@ -39,7 +40,7 @@ const LocationIntelligenceSection = () => {
       </div>
 
       {/* CTA */}
-      <div className="max-w-[1232px] mx-auto px-6 pb-6 flex justify-end">
+      <div className="px-10 pb-5 flex justify-end">
         <a
           href="#"
           className="flex items-center gap-1 text-white text-sm font-medium hover:opacity-80 transition-opacity"
@@ -48,6 +49,7 @@ const LocationIntelligenceSection = () => {
           <ChevronDown size={16} />
           Conheças as soluções
         </a>
+      </div>
       </div>
     </section>
   );
