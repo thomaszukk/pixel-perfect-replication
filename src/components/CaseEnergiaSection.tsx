@@ -9,7 +9,7 @@ const CaseEnergiaSection = () => {
           <img
             src={caseEnergiaImg}
             alt="Case Energia - Turbinas eólicas ao pôr do sol"
-            className="w-full h-full object-cover rounded-tr-[40px]"
+            className="w-full h-full object-cover rounded-tr-[40px] object-[60%_center]"
             style={{ position: "absolute", inset: 0 }}
           />
         </div>
