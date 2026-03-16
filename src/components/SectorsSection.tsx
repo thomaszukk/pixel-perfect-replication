@@ -25,7 +25,7 @@ const SectorsSection = () => {
 
         {/* Divider */}
         <div
-          className="w-16 h-[3px] mx-auto mb-6"
+          className="w-[120px] h-[4px] mx-auto mb-6"
           style={{ backgroundColor: "#09A5C1" }}
         />
 
@@ -34,9 +34,7 @@ const SectorsSection = () => {
           className="text-base md:text-lg font-light leading-relaxed max-w-[680px] mx-auto mb-14"
           style={{ color: "rgba(255,255,255,0.7)" }}
         >
-          Aplicamos o poder da inteligência geográfica para resolver desafios específicos de cada setor.
-          <br />
-          Confira como transformamos dados em resultados reais para nossos clientes.
+          Aplicamos o poder da inteligência geográfica para resolver desafios específicos de cada setor. Confira como transformamos dados em resultados reais para nossos clientes.
         </p>
 
         {/* Cards */}
@@ -57,8 +55,8 @@ const SectorsSection = () => {
 
               {/* Divider line */}
               <div
-                className="w-full h-[1px] mb-4"
-                style={{ backgroundColor: "rgba(255,255,255,0.2)" }}
+                className="w-full h-[4px] mb-4"
+                style={{ backgroundColor: "#09A5C1" }}
               />
 
               {/* Title */}
