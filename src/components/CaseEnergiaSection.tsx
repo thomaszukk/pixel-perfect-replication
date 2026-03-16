@@ -16,7 +16,7 @@ const CaseEnergiaSection = () => {
 
         {/* Right: Content */}
         <div className="w-full md:w-1/2 flex items-center justify-center px-8 py-16 md:px-16 lg:px-24 bg-background">
-          <div className="flex flex-col items-start max-w-[480px]">
+          <div className="flex flex-col items-start max-w-[400px]">
             <h2
               className="text-3xl md:text-[48px] font-bold leading-[1.14] mb-6"
               style={{ color: "#0B132B", fontFamily: "'Poppins', sans-serif" }}
