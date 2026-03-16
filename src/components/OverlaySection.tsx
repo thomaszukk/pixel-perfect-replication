@@ -58,18 +58,9 @@ const services = [
 const OverlaySection = () => {
   return (
     <section
-      className="w-full px-6 py-20 md:py-24 relative"
-      style={{
-        backgroundImage: `url(${overlayBg})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
+      className="w-full px-6 py-20 md:py-24"
+      style={{ backgroundColor: "#ebebeb" }}
     >
-      {/* Light overlay */}
-      <div
-        className="absolute inset-0"
-        style={{ backgroundColor: "rgba(255, 255, 255, 0.92)" }}
-      />
 
       <div className="max-w-[1232px] mx-auto relative z-10">
         {/* Heading */}
@@ -101,9 +92,9 @@ const OverlaySection = () => {
         </div>
 
         {/* Service cards */}
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-6 md:gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-6 md:gap-4 justify-items-center">
           {services.map((service) => (
-            <div key={service.title} className="flex flex-col items-start gap-5">
+            <div key={service.title} className="flex flex-col items-center text-center gap-5">
               {/* Icon */}
               <div className="w-[50px] h-[50px] flex items-start">{service.icon}</div>
 
