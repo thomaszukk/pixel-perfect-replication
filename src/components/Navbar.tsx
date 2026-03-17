@@ -49,21 +49,35 @@ const Navbar = () => {
         <ul className="hidden lg:flex items-center gap-8">
           {navItems.map((item) => (
             <li key={item.label}>
-              <a
-                href={item.href}
-                className={`text-base font-medium transition-all duration-300 hover:opacity-100 ${
-                  scrolled
-                    ? isActive(item.href)
-                      ? "text-[#09A5C1] opacity-100"
-                      : "text-[#0B132B] opacity-70 hover:text-[#09A5C1]"
-                    : isActive(item.href)
-                      ? "opacity-100"
+              {item.href.startsWith("#") ? (
+                <a
+                  href={item.href}
+                  className={`text-base font-medium transition-all duration-300 hover:opacity-100 ${
+                    scrolled
+                      ? "text-[#0B132B] opacity-70 hover:text-[#09A5C1]"
                       : "opacity-70"
-                }`}
-                style={scrolled ? {} : { color: "white" }}
-              >
-                {item.label}
-              </a>
+                  }`}
+                  style={scrolled ? {} : { color: "white" }}
+                >
+                  {item.label}
+                </a>
+              ) : (
+                <Link
+                  to={item.href}
+                  className={`text-base font-medium transition-all duration-300 hover:opacity-100 ${
+                    scrolled
+                      ? isActive(item.href)
+                        ? "text-[#09A5C1] opacity-100"
+                        : "text-[#0B132B] opacity-70 hover:text-[#09A5C1]"
+                      : isActive(item.href)
+                        ? "opacity-100"
+                        : "opacity-70"
+                  }`}
+                  style={scrolled ? {} : { color: "white" }}
+                >
+                  {item.label}
+                </Link>
+              )}
             </li>
           ))}
         </ul>
