@@ -53,7 +53,7 @@ const ResultadosEnergiaCardsSection = () => {
           {results.map((item, idx) => (
             <div
               key={idx}
-              className="flex flex-col items-center text-center bg-white rounded-[20px] p-8 pt-10 relative"
+              className="flex flex-col items-center text-center bg-white rounded-t-[20px] rounded-b-none p-8 pt-10 relative overflow-hidden"
               style={{ boxShadow: "0 19px 38px 0 rgba(0, 0, 0, 0.16)" }}
             >
               {/* Icon */}
