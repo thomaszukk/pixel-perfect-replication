@@ -23,9 +23,9 @@ const BeneficiosPorAreaSection = () => {
   return (
     <section className="w-full flex justify-center pt-[10px] pb-[26px]">
       <div className="max-w-[1232px] w-full px-6">
-        <div className="flex flex-col md:flex-row items-start">
+        <div className="flex flex-col md:flex-row items-center">
           {/* Left: Title + Areas */}
-          <div className="w-full md:w-[57%] p-[15px]">
+          <div className="w-full md:w-[57%] p-[15px] flex flex-col justify-center">
             <div className="flex flex-col gap-10">
               {/* Title */}
               <h2
@@ -40,7 +40,7 @@ const BeneficiosPorAreaSection = () => {
               {/* Areas grid */}
               <div className="flex flex-col">
                 {areas.map((area, idx) => (
-                  <div key={idx} className="flex min-h-[134px]">
+                  <div key={idx} className="flex">
                     {/* Label */}
                     <div
                       className="w-[213px] flex-shrink-0 pr-10 py-[15px] flex items-center"
@@ -55,12 +55,12 @@ const BeneficiosPorAreaSection = () => {
                     </div>
 
                     {/* Items */}
-                    <div className="flex-1 pl-10 py-0 flex items-center">
+                    <div className="flex-1 pl-10 py-[8px] flex items-center">
                       <ul className="list-disc pl-10 flex flex-col">
                         {area.items.map((item, i) => (
                           <li
                             key={i}
-                            className="text-base font-light leading-[1.4] py-[11px]"
+                            className="text-base font-light leading-[1.4] py-[4px]"
                             style={{ color: "#191D2A", fontFamily: "'Poppins', sans-serif" }}
                           >
                             {item}
@@ -75,9 +75,9 @@ const BeneficiosPorAreaSection = () => {
           </div>
 
           {/* Right: Image */}
-          <div className="w-full md:w-[43%] p-[15px]">
+          <div className="w-full md:w-[43%] p-[15px] flex items-center">
             <div
-              className="w-full h-[350px] md:h-[440px] rounded-[25px] overflow-hidden"
+              className="w-full h-full min-h-[350px] md:min-h-[440px] rounded-[25px] overflow-hidden"
               style={{ boxShadow: "0 0 10px 2px rgba(0, 0, 0, 0.50)" }}
             >
               <img
