@@ -10,7 +10,7 @@ const ResultadosEnergiaSection = () => {
             Quais são os Resultados?
           </h3>
           <p
-            className="text-base font-light leading-[1.4] max-w-[800px]"
+            className="text-[24px] font-light leading-[1.4] max-w-[800px]"
             style={{ color: "#191D2A", fontFamily: "'Poppins', sans-serif" }}
           >
             Com a ZUKK, empresas do setor elétrico ganham{" "}
