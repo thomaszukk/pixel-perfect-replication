@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import logoZukk from "@/assets/logo-zukk.png";
 import logoZukkBlue from "@/assets/logo-zukk-blue.png";
