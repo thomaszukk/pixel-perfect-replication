@@ -31,9 +31,7 @@ const Industrias = () => {
 
       {/* Divider */}
       <div className="flex justify-center py-4">
-        <div className="max-w-[1232px] w-full px-6">
-          <hr style={{ borderColor: "#CCC", borderTop: "1px solid #CCC" }} />
-        </div>
+        <div className="w-[120px] h-[3px] rounded-full" style={{ backgroundColor: "#09A5C1" }} />
       </div>
 
       <Footer />
