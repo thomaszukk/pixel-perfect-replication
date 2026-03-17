@@ -37,13 +37,13 @@ const Navbar = () => {
       }`}
     >
       <div className="max-w-[1400px] mx-auto flex items-center justify-between">
-        <a href="#">
+        <Link to="/">
           <img
             src={scrolled ? logoZukkBlue : logoZukk}
             alt="ZUKK"
             className="h-8 md:h-10 transition-none"
           />
-        </a>
+        </Link>
 
         {/* Desktop nav */}
         <ul className="hidden lg:flex items-center gap-8">
