@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import logoZukk from "@/assets/logo-zukk.png";
 import logoZukkBlue from "@/assets/logo-zukk-blue.png";
@@ -37,33 +37,47 @@ const Navbar = () => {
       }`}
     >
       <div className="max-w-[1400px] mx-auto flex items-center justify-between">
-        <a href="#">
+        <Link to="/">
           <img
             src={scrolled ? logoZukkBlue : logoZukk}
             alt="ZUKK"
             className="h-8 md:h-10 transition-none"
           />
-        </a>
+        </Link>
 
         {/* Desktop nav */}
         <ul className="hidden lg:flex items-center gap-8">
           {navItems.map((item) => (
             <li key={item.label}>
-              <a
-                href={item.href}
-                className={`text-base font-medium transition-all duration-300 hover:opacity-100 ${
-                  scrolled
-                    ? isActive(item.href)
-                      ? "text-[#09A5C1] opacity-100"
-                      : "text-[#0B132B] opacity-70 hover:text-[#09A5C1]"
-                    : isActive(item.href)
-                      ? "opacity-100"
+              {item.href.startsWith("#") ? (
+                <a
+                  href={item.href}
+                  className={`text-base font-medium transition-all duration-300 hover:opacity-100 ${
+                    scrolled
+                      ? "text-[#0B132B] opacity-70 hover:text-[#09A5C1]"
                       : "opacity-70"
-                }`}
-                style={scrolled ? {} : { color: "white" }}
-              >
-                {item.label}
-              </a>
+                  }`}
+                  style={scrolled ? {} : { color: "white" }}
+                >
+                  {item.label}
+                </a>
+              ) : (
+                <Link
+                  to={item.href}
+                  className={`text-base font-medium transition-all duration-300 hover:opacity-100 ${
+                    scrolled
+                      ? isActive(item.href)
+                        ? "text-[#09A5C1] opacity-100"
+                        : "text-[#0B132B] opacity-70 hover:text-[#09A5C1]"
+                      : isActive(item.href)
+                        ? "opacity-100"
+                        : "opacity-70"
+                  }`}
+                  style={scrolled ? {} : { color: "white" }}
+                >
+                  {item.label}
+                </Link>
+              )}
             </li>
           ))}
         </ul>
@@ -84,22 +98,37 @@ const Navbar = () => {
           <ul className="flex flex-col gap-4">
             {navItems.map((item) => (
               <li key={item.label}>
-                <a
-                  href={item.href}
-                  className={`text-sm font-medium ${
-                    scrolled
-                      ? isActive(item.href)
-                        ? "text-[#09A5C1]"
-                        : "text-[#0B132B] opacity-70"
-                      : isActive(item.href)
-                        ? "opacity-100"
+                {item.href.startsWith("#") ? (
+                  <a
+                    href={item.href}
+                    className={`text-sm font-medium ${
+                      scrolled
+                        ? "text-[#0B132B] opacity-70"
                         : "opacity-70"
-                  }`}
-                  style={scrolled ? {} : { color: "white" }}
-                  onClick={() => setMobileOpen(false)}
-                >
-                  {item.label}
-                </a>
+                    }`}
+                    style={scrolled ? {} : { color: "white" }}
+                    onClick={() => setMobileOpen(false)}
+                  >
+                    {item.label}
+                  </a>
+                ) : (
+                  <Link
+                    to={item.href}
+                    className={`text-sm font-medium ${
+                      scrolled
+                        ? isActive(item.href)
+                          ? "text-[#09A5C1]"
+                          : "text-[#0B132B] opacity-70"
+                        : isActive(item.href)
+                          ? "opacity-100"
+                          : "opacity-70"
+                    }`}
+                    style={scrolled ? {} : { color: "white" }}
+                    onClick={() => setMobileOpen(false)}
+                  >
+                    {item.label}
+                  </Link>
+                )}
               </li>
             ))}
           </ul>
