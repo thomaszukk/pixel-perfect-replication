@@ -4,6 +4,7 @@ import IndustriaTelecomSection from "@/components/IndustriaTelecomSection";
 import IndustriaTelecomCardsSection from "@/components/IndustriaTelecomCardsSection";
 import BeneficiosPorAreaSection from "@/components/BeneficiosPorAreaSection";
 import IndustriaEnergiaSection from "@/components/IndustriaEnergiaSection";
+import IndustriaEnergiaCardsSection from "@/components/IndustriaEnergiaCardsSection";
 import solucoesBg from "@/assets/solucoes-hero-bg.png";
 
 const Industrias = () => {
