@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import IndustriaTelecomSection from "@/components/IndustriaTelecomSection";
 import solucoesBg from "@/assets/solucoes-hero-bg.png";
 
 const Industrias = () => {
@@ -21,6 +22,8 @@ const Industrias = () => {
           className="w-full h-full object-cover object-center block"
         />
       </section>
+
+      <IndustriaTelecomSection />
 
       <Footer />
     </div>
