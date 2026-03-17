@@ -9,6 +9,7 @@ import Industrias from "./pages/Industrias.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
+const basename = import.meta.env.PROD ? "/teste" : "";
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
