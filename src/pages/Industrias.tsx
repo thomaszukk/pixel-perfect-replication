@@ -6,6 +6,7 @@ import BeneficiosPorAreaSection from "@/components/BeneficiosPorAreaSection";
 import IndustriaEnergiaSection from "@/components/IndustriaEnergiaSection";
 import IndustriaEnergiaCardsSection from "@/components/IndustriaEnergiaCardsSection";
 import ResultadosEnergiaSection from "@/components/ResultadosEnergiaSection";
+import ResultadosEnergiaCardsSection from "@/components/ResultadosEnergiaCardsSection";
 import solucoesBg from "@/assets/solucoes-hero-bg.png";
 
 const Industrias = () => {
@@ -40,6 +41,7 @@ const Industrias = () => {
       <IndustriaEnergiaSection />
       <IndustriaEnergiaCardsSection />
       <ResultadosEnergiaSection />
+      <ResultadosEnergiaCardsSection />
 
       <Footer />
     </div>
