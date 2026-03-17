@@ -77,7 +77,7 @@ const ResultadosEnergiaCardsSection = () => {
 
               {/* Bottom border */}
               <div
-                className="absolute bottom-0 left-6 right-6 h-[3px] rounded-full"
+                className="absolute bottom-0 left-0 right-0 h-[3px]"
                 style={{ backgroundColor: item.borderColor }}
               />
             </div>
