@@ -41,6 +41,7 @@ const Industrias = () => {
       <IndustriaEnergiaSection />
       <IndustriaEnergiaCardsSection />
       <ResultadosEnergiaSection />
+      <ResultadosEnergiaCardsSection />
 
       <Footer />
     </div>
