@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import IndustriaTelecomSection from "@/components/IndustriaTelecomSection";
 import IndustriaTelecomCardsSection from "@/components/IndustriaTelecomCardsSection";
 import BeneficiosPorAreaSection from "@/components/BeneficiosPorAreaSection";
+import IndustriaEnergiaSection from "@/components/IndustriaEnergiaSection";
 import solucoesBg from "@/assets/solucoes-hero-bg.png";
 
 const Industrias = () => {
@@ -33,6 +34,8 @@ const Industrias = () => {
       <div className="flex justify-center py-4">
         <div className="w-[120px] h-[1px]" style={{ backgroundColor: "#09A5C1" }} />
       </div>
+
+      <IndustriaEnergiaSection />
 
       <Footer />
     </div>
