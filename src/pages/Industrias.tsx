@@ -35,6 +35,8 @@ const Industrias = () => {
         <div className="w-[120px] h-[1px]" style={{ backgroundColor: "#09A5C1" }} />
       </div>
 
+      <IndustriaEnergiaSection />
+
       <Footer />
     </div>
   );
