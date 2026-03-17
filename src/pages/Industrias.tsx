@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import IndustriaTelecomSection from "@/components/IndustriaTelecomSection";
+import IndustriaTelecomCardsSection from "@/components/IndustriaTelecomCardsSection";
 import solucoesBg from "@/assets/solucoes-hero-bg.png";
 
 const Industrias = () => {
@@ -24,6 +25,7 @@ const Industrias = () => {
       </section>
 
       <IndustriaTelecomSection />
+      <IndustriaTelecomCardsSection />
 
       <Footer />
     </div>
