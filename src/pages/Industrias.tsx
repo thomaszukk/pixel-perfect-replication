@@ -31,7 +31,7 @@ const Industrias = () => {
 
       {/* Divider */}
       <div className="flex justify-center py-4">
-        <div className="w-[120px] h-[3px] rounded-full" style={{ backgroundColor: "#09A5C1" }} />
+        <div className="w-[120px] h-[1px]" style={{ backgroundColor: "#09A5C1" }} />
       </div>
 
       <Footer />
