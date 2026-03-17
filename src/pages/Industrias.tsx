@@ -29,6 +29,13 @@ const Industrias = () => {
       <IndustriaTelecomCardsSection />
       <BeneficiosPorAreaSection />
 
+      {/* Divider */}
+      <div className="flex justify-center py-4">
+        <div className="max-w-[1232px] w-full px-6">
+          <hr style={{ borderColor: "#CCC", borderTop: "1px solid #CCC" }} />
+        </div>
+      </div>
+
       <Footer />
     </div>
   );
