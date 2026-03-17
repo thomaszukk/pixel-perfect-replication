@@ -4,7 +4,7 @@ const ResultadosEnergiaSection = () => {
       <div className="max-w-[1232px] w-full px-6">
         <div className="p-[15px]">
           <h3
-            className="text-xl md:text-2xl font-bold leading-[1.4] mb-4"
+            className="text-[24px] font-bold leading-[1.4] mb-4"
             style={{ color: "#0B132B", fontFamily: "'Poppins', sans-serif" }}
           >
             Quais são os Resultados?
