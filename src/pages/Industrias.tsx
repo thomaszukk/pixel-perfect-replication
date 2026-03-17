@@ -25,6 +25,7 @@ const Industrias = () => {
       </section>
 
       <IndustriaTelecomSection />
+      <IndustriaTelecomCardsSection />
 
       <Footer />
     </div>
