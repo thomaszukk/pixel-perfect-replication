@@ -98,22 +98,37 @@ const Navbar = () => {
           <ul className="flex flex-col gap-4">
             {navItems.map((item) => (
               <li key={item.label}>
-                <a
-                  href={item.href}
-                  className={`text-sm font-medium ${
-                    scrolled
-                      ? isActive(item.href)
-                        ? "text-[#09A5C1]"
-                        : "text-[#0B132B] opacity-70"
-                      : isActive(item.href)
-                        ? "opacity-100"
+                {item.href.startsWith("#") ? (
+                  <a
+                    href={item.href}
+                    className={`text-sm font-medium ${
+                      scrolled
+                        ? "text-[#0B132B] opacity-70"
                         : "opacity-70"
-                  }`}
-                  style={scrolled ? {} : { color: "white" }}
-                  onClick={() => setMobileOpen(false)}
-                >
-                  {item.label}
-                </a>
+                    }`}
+                    style={scrolled ? {} : { color: "white" }}
+                    onClick={() => setMobileOpen(false)}
+                  >
+                    {item.label}
+                  </a>
+                ) : (
+                  <Link
+                    to={item.href}
+                    className={`text-sm font-medium ${
+                      scrolled
+                        ? isActive(item.href)
+                          ? "text-[#09A5C1]"
+                          : "text-[#0B132B] opacity-70"
+                        : isActive(item.href)
+                          ? "opacity-100"
+                          : "opacity-70"
+                    }`}
+                    style={scrolled ? {} : { color: "white" }}
+                    onClick={() => setMobileOpen(false)}
+                  >
+                    {item.label}
+                  </Link>
+                )}
               </li>
             ))}
           </ul>
