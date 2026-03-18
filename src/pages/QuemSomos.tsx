@@ -272,7 +272,7 @@ const QuemSomos = () => {
                   PO-SI-01_Política de Segurança da Informação
                 </span>
                 <a
-                  href="/docs/PO-SI-01_Politica_de_Seguranca_da_Informacao.pdf"
+                  href="/teste/docs/PO-SI-01_Politica_de_Seguranca_da_Informacao.pdf"
                   download
                   className="px-5 py-2 rounded-full border text-[14px] font-medium hover:opacity-80 transition-opacity"
                   style={{ borderColor: "#0B132B", color: "#0B132B", fontFamily: "'Poppins', sans-serif" }}
