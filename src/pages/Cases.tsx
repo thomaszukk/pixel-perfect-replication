@@ -25,6 +25,7 @@ const Cases = () => {
       </section>
 
       <CaseEnergiaPageSection />
+      <CaseTelecomPageSection />
 
       <Footer />
     </div>
