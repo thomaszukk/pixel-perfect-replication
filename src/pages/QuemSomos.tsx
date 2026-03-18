@@ -24,7 +24,7 @@ const QuemSomos = () => {
         <img
           src={solucoesBg}
           alt="Quem Somos ZUKK"
-          className="w-full h-full object-cover object-top block"
+          className="w-full h-full object-cover object-left block"
         />
       </section>
 

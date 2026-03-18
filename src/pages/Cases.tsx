@@ -19,7 +19,7 @@ const Cases = () => {
         <img
           src={solucoesBg}
           alt="Cases de sucesso ZUKK"
-          className="w-full h-full object-cover object-top block"
+          className="w-full h-full object-cover object-left block"
         />
       </section>
 

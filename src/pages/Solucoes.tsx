@@ -25,7 +25,7 @@ const Solucoes = () => {
         <img
           src={solucoesBg}
           alt="Conectando o futuro com Soluções Inteligentes"
-          className="w-full h-full object-cover object-top block"
+          className="w-full h-full object-cover object-left block"
         />
       </section>
 
