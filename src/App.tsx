@@ -10,7 +10,7 @@ import Cases from "./pages/Cases.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
-const basename = import.meta.env.PROD ? "/teste" : "";
+const basename = "";
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
