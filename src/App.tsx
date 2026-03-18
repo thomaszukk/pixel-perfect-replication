@@ -8,6 +8,7 @@ import Solucoes from "./pages/Solucoes.tsx";
 import Industrias from "./pages/Industrias.tsx";
 import Cases from "./pages/Cases.tsx";
 import QuemSomos from "./pages/QuemSomos.tsx";
+import Contato from "./pages/Contato.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
