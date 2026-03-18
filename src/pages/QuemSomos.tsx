@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import ContactSection from "@/components/ContactSection";
 import quemSomosBg from "@/assets/quem-somos-bg.webp";
 import solucoesBg from "@/assets/solucoes-hero-bg.png";
+import officeImg from "@/assets/quem-somos-office.webp";
 
 const QuemSomos = () => {
   return (
@@ -76,6 +77,66 @@ const QuemSomos = () => {
             >
               Apoiamos a jornada digital dos nossos clientes, tanto com equipes especializadas quanto com ferramentas e inovação.
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Nosso Diferencial Section */}
+      <section className="w-full">
+        <div className="flex flex-col md:flex-row">
+          {/* Left: Office Image */}
+          <div className="w-full md:w-[40%] min-h-[400px] md:min-h-[709px] relative">
+            <img
+              src={officeImg}
+              alt="Escritório ZUKK"
+              className="w-full h-full object-cover rounded-r-md"
+              style={{ position: "absolute", inset: 0 }}
+            />
+          </div>
+
+          {/* Right: Content */}
+          <div
+            className="w-full md:w-[60%] flex items-center px-8 py-16 md:px-20 lg:px-[172px]"
+            style={{ background: "rgba(11, 19, 43, 0.05)" }}
+          >
+            <div className="flex flex-col gap-5 max-w-[700px]">
+              <h4
+                className="text-[22px] font-bold leading-[1.4] pb-[30px]"
+                style={{ color: "#0B132B", fontFamily: "'Poppins', sans-serif" }}
+              >
+                Nosso diferencial está na forma como conectamos dados, geolocalização e tecnologia robusta para entregar soluções personalizadas, ágeis e estratégicas.
+              </h4>
+
+              <p
+                className="text-[16px] font-light leading-[1.4]"
+                style={{ color: "#0B132B", fontFamily: "'Poppins', sans-serif" }}
+              >
+                Com um portfólio completo, desenvolvemos e aplicamos soluções sob medida desde a coleta de dados em campo até soluções com GEO AI, monitoramento em tempo real e muito mais. Ajudamos empresas a superarem desafios operacionais, logísticos e analíticos, de forma simples, eficiente e integrada.
+              </p>
+
+              <p
+                className="text-[16px] font-light leading-[1.4]"
+                style={{ color: "#0B132B", fontFamily: "'Poppins', sans-serif" }}
+              >
+                Atuamos em setores como:
+              </p>
+
+              <ul className="flex flex-col gap-5 pt-[30px]">
+                {["Telecomunicações", "Energia", "Água e Saneamento", "Óleo e Gás", "Agronegócio", "Logística"].map((sector) => (
+                  <li key={sector} className="flex items-center gap-[10px]">
+                    <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9.38496 2.93604C11.4379 2.93604 13.3149 3.74989 14.664 5.09898L13.8392 5.92384C12.7247 4.80937 11.1446 4.10916 9.38496 4.10916C5.80692 4.10916 2.93277 6.98332 2.93277 10.5613C2.93277 14.1394 5.80692 17.0135 9.38496 17.0135C12.963 17.0135 15.8371 14.1394 15.8371 10.5613C15.8371 10.0334 15.7712 9.56419 15.6538 9.09494L16.607 8.16011C16.9003 8.92264 17.0103 9.74016 17.0103 10.5613C17.0103 14.7846 13.6082 18.1867 9.38496 18.1867C5.16171 18.1867 1.75964 14.7846 1.75964 10.5613C1.75964 6.3381 5.16171 2.93604 9.38496 2.93604ZM16.0021 5.44726L16.8453 6.29044L9.80655 13.3292L9.38496 13.7325L8.96336 13.3292L6.03055 10.3964L6.87374 9.55319L9.38496 12.0644L16.0021 5.44726Z" fill="#001E3B" />
+                    </svg>
+                    <span
+                      className="text-[18px] font-semibold leading-[1.4]"
+                      style={{ color: "#0B132B", fontFamily: "'Poppins', sans-serif" }}
+                    >
+                      {sector}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </section>
