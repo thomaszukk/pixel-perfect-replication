@@ -51,37 +51,13 @@ const CaseEnergiaPageSection = () => {
       <div className="w-full">
         <div className="flex flex-col md:flex-row gap-0">
           {/* Left - Image */}
-          <div
-            className="relative w-full md:w-1/2 min-h-[400px] md:min-h-[520px] flex flex-col justify-end p-10"
-            style={{
-              backgroundImage: `url(${caseEnergia})`,
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-            }}
-          >
-            <div className="absolute inset-0 bg-black/40" />
-            <div className="relative z-10">
-              <p
-                className="text-white text-sm font-medium tracking-wider mb-6"
-                style={{ fontFamily: "'Poppins', sans-serif" }}
-              >
-                ZUKK
-              </p>
-              <h2
-                className="text-[40px] font-bold leading-[1.2] mb-4"
-                style={{ color: "#3DE8E0", fontFamily: "'Poppins', sans-serif" }}
-              >
-                CASE ENERGIA
-              </h2>
-              <p
-                className="text-white text-xl font-light leading-[1.4]"
-                style={{ fontFamily: "'Poppins', sans-serif" }}
-              >
-                Gestão Inteligente de Equipes
-                <br />
-                com GIS
-              </p>
-            </div>
+          <div className="w-full md:w-1/2 h-[300px] md:h-[520px] relative">
+            <img
+              src={caseEnergia}
+              alt="Case Energia - Turbinas eólicas ao pôr do sol"
+              className="w-full h-full object-cover rounded-tr-[40px] object-[30%_center]"
+              style={{ position: "absolute", inset: 0 }}
+            />
           </div>
 
           {/* Right - Content */}
