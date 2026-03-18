@@ -12,7 +12,7 @@ import Contato from "./pages/Contato.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
-const basename = "";
+const basename = "/teste";
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
