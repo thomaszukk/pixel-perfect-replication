@@ -50,7 +50,6 @@ const CaseEnergiaPageSection = () => {
     <section className="w-full pt-[60px]">
       <div className="w-full">
         <div className="flex flex-col md:flex-row gap-0">
-        <div className="flex flex-col md:flex-row gap-0">
           {/* Left - Image */}
           <div
             className="relative w-full md:w-1/2 min-h-[400px] md:min-h-[520px] flex flex-col justify-end p-10"
