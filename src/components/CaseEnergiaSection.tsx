@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import caseEnergiaImg from "@/assets/case-energia.webp";
 
 const CaseEnergiaSection = () => {
@@ -32,13 +33,13 @@ const CaseEnergiaSection = () => {
               uma das maiores distribuidoras de energia do Brasil.
             </p>
 
-            <a
-              href="#"
+            <Link
+              to="/cases"
               className="text-base font-medium leading-6 hover:opacity-80 transition-opacity"
               style={{ color: "#001E3B", fontFamily: "'Niramit', sans-serif" }}
             >
               [Veja o case completo →]
-            </a>
+            </Link>
           </div>
         </div>
       </div>

@@ -16,10 +16,9 @@ const Industrias = () => {
 
       {/* Hero Section */}
       <section
-        className="relative w-full overflow-hidden"
+        className="relative w-full overflow-hidden h-[320px] md:h-[520px]"
         style={{
           borderRadius: "0 0 150px 0",
-          height: "520px",
         }}
       >
         <img

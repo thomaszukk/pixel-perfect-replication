@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import heroBg from "@/assets/hero-bg.png";
 
 const HeroSection = () => {
@@ -5,8 +6,8 @@ const HeroSection = () => {
     <section className="relative w-full bg-background">
       {/* Inner container with rounded corner */}
       <div
-        className="relative w-full flex items-center justify-center overflow-hidden"
-        style={{ borderRadius: "0 0 150px 0", height: "110vh" }}
+        className="relative w-full flex items-center justify-center overflow-hidden h-[80vh] md:h-[110vh]"
+        style={{ borderRadius: "0 0 150px 0" }}
       >
         {/* Background image */}
         <div
@@ -35,20 +36,20 @@ const HeroSection = () => {
           </p>
 
           <div className="flex items-center justify-center gap-4 flex-wrap">
-            <a
-              href="#solucoes"
+            <Link
+              to="/solucoes"
               className="px-10 py-3.5 rounded-full text-base font-semibold transition-all hover:opacity-90"
               style={{ backgroundColor: "#09A5C1", color: "white" }}
             >
               Saiba mais
-            </a>
-            <a
-              href="#contato"
+            </Link>
+            <Link
+              to="/contato"
               className="px-10 py-3.5 rounded-full text-base font-semibold border-2 transition-all hover:bg-white/10"
               style={{ borderColor: "white", color: "white" }}
             >
               Fale conosco
-            </a>
+            </Link>
           </div>
         </div>
       </div>
