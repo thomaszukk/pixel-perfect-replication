@@ -142,6 +142,50 @@ const QuemSomos = () => {
         </div>
       </section>
 
+      {/* Nossa Cultura Section */}
+      <section className="w-full">
+        <div className="flex flex-col md:flex-row">
+          {/* Left: Content */}
+          <div
+            className="w-full md:w-[60%] flex items-center px-8 py-16 md:px-16 lg:px-24"
+            style={{ background: "#F5F5F5" }}
+          >
+            <div className="max-w-[600px]">
+              <h2
+                className="text-[36px] md:text-[48px] font-bold leading-[1.14] mb-8"
+                style={{ color: "#0B132B", fontFamily: "'Poppins', sans-serif" }}
+              >
+                Nossa Cultura
+              </h2>
+
+              <p
+                className="text-[16px] font-light leading-[1.4] mb-6"
+                style={{ color: "#0B132B", fontFamily: "'Poppins', sans-serif" }}
+              >
+                Somos inquietos, colaborativos e profundamente conectados com o mundo real.
+              </p>
+
+              <p
+                className="text-[16px] font-light leading-[1.4]"
+                style={{ color: "#0B132B", fontFamily: "'Poppins', sans-serif" }}
+              >
+                Valorizamos a <strong className="font-semibold">curiosidade, inovação e dados estratégicos</strong> como motores da transformação. Acreditamos na escuta ativa, na construção conjunta e na entrega com excelência, sempre com flexibilidade e foco no cliente.
+              </p>
+            </div>
+          </div>
+
+          {/* Right: Image */}
+          <div className="w-full md:w-[40%] min-h-[300px] md:min-h-[410px] relative">
+            <img
+              src={nossaCulturaImg}
+              alt="Nossa Cultura - Edifícios corporativos"
+              className="w-full h-full object-cover"
+              style={{ position: "absolute", inset: 0 }}
+            />
+          </div>
+        </div>
+      </section>
+
       <Footer />
     </div>
   );
