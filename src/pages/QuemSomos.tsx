@@ -5,6 +5,7 @@ import quemSomosBg from "@/assets/quem-somos-bg.webp";
 import solucoesBg from "@/assets/solucoes-hero-bg.png";
 import officeImg from "@/assets/quem-somos-office.webp";
 import nossaCulturaImg from "@/assets/nossa-cultura.jpeg";
+import nossoCompromissoImg from "@/assets/nosso-compromisso.webp";
 
 const QuemSomos = () => {
   return (
