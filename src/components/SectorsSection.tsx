@@ -1,11 +1,12 @@
+import { Link } from "react-router-dom";
 import sectorEnergia from "@/assets/sector-energia.webp";
 import sectorTelecom from "@/assets/sector-telecom.webp";
 import sectorAgua from "@/assets/sector-agua.webp";
 
 const sectors = [
-  { image: sectorEnergia, title: "Energia", href: "#energia" },
-  { image: sectorTelecom, title: "Telecomunicações", href: "#telecom" },
-  { image: sectorAgua, title: "Água e Saneamento", href: "#agua" },
+  { image: sectorEnergia, title: "Energia" },
+  { image: sectorTelecom, title: "Telecomunicações" },
+  { image: sectorAgua, title: "Água e Saneamento" },
 ];
 
 const SectorsSection = () => {
@@ -15,7 +16,6 @@ const SectorsSection = () => {
       style={{ backgroundColor: "#0B132B" }}
     >
       <div className="max-w-[1232px] mx-auto text-center">
-        {/* Heading */}
         <h2
           className="text-3xl md:text-[48px] font-bold leading-tight mb-4"
           style={{ color: "white", fontFamily: "'Poppins', sans-serif" }}
@@ -23,13 +23,11 @@ const SectorsSection = () => {
           Setores que Impactamos
         </h2>
 
-        {/* Divider */}
         <div
           className="w-[120px] h-[4px] mx-auto mb-6"
           style={{ backgroundColor: "white" }}
         />
 
-        {/* Subtitle */}
         <p
           className="text-base md:text-lg font-light leading-relaxed max-w-[900px] mx-auto mb-14"
           style={{ color: "white" }}
@@ -37,11 +35,9 @@ const SectorsSection = () => {
           Aplicamos o poder da inteligência geográfica para resolver desafios específicos de cada setor. Confira como transformamos dados em resultados reais para nossos clientes.
         </p>
 
-        {/* Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {sectors.map((sector) => (
             <div key={sector.title} className="flex flex-col items-start text-left">
-              {/* Image */}
               <div
                 className="w-full aspect-square overflow-hidden mb-6"
                 style={{ borderRadius: "20px" }}
@@ -53,13 +49,11 @@ const SectorsSection = () => {
                 />
               </div>
 
-              {/* Divider line */}
               <div
                 className="w-1/3 h-[4px] mx-auto mb-4"
                 style={{ backgroundColor: "white" }}
               />
 
-              {/* Title */}
               <h3
                 className="text-xl font-bold mb-2"
                 style={{ color: "white", fontFamily: "'Poppins', sans-serif" }}
@@ -67,14 +61,13 @@ const SectorsSection = () => {
                 {sector.title}
               </h3>
 
-              {/* Link */}
-              <a
-                href={sector.href}
+              <Link
+                to="/industrias"
                 className="text-sm font-light underline transition-opacity hover:opacity-80"
                 style={{ color: "rgba(255,255,255,0.7)" }}
               >
                 saiba mais
-              </a>
+              </Link>
             </div>
           ))}
         </div>

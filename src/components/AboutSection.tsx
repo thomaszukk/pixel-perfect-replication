@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import sectionImage from "@/assets/section2-image.png";
 
 const AboutSection = () => {
@@ -11,7 +12,7 @@ const AboutSection = () => {
         }}
       >
         <div className="flex flex-col md:flex-row items-stretch justify-center px-[60px] py-[50px] gap-10">
-          {/* Left column - same dimensions as image */}
+          {/* Left column */}
           <div className="md:w-[360px] flex-shrink-0 flex flex-col justify-center">
             <h2
               className="text-[22px] font-bold leading-tight mb-5"
@@ -29,8 +30,8 @@ const AboutSection = () => {
               soluções que otimizam operações e potencializam resultados.
             </p>
             <div>
-              <a
-                href="#sobre"
+              <Link
+                to="/solucoes"
                 className="inline-block px-8 py-3 text-[11px] font-semibold uppercase tracking-wider transition-all hover:opacity-90"
                 style={{
                   backgroundColor: "#001E3B",
@@ -40,7 +41,7 @@ const AboutSection = () => {
                 }}
               >
                 Conheça mais
-              </a>
+              </Link>
             </div>
           </div>
 
