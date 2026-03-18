@@ -219,7 +219,7 @@ const QuemSomos = () => {
 
               <p
                 className="text-[16px] font-bold italic leading-[1.4]"
-                style={{ color: "#FFD700", fontFamily: "'Poppins', sans-serif" }}
+                style={{ color: "#FFFFFF", fontFamily: "'Poppins', sans-serif" }}
               >
                 "A ZUKK é uma boutique de tecnologia que tem como seu principal diferencial a inteligência geográfica para auxiliar no negócio dos seus clientes."
               </p>
