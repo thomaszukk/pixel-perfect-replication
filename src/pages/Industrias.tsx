@@ -24,7 +24,7 @@ const Industrias = () => {
         <img
           src={solucoesBg}
           alt="Indústrias que transformamos com inteligência geográfica"
-          className="w-full h-full object-cover object-center block"
+          className="w-full h-full object-cover object-top block"
         />
       </section>
 

@@ -40,7 +40,7 @@ const Contato = () => {
         <img
           src={solucoesBg}
           alt="Contato ZUKK"
-          className="w-full h-full object-cover object-center block"
+          className="w-full h-full object-cover object-top block"
         />
       </section>
 
