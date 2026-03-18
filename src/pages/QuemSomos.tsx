@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import ContactSection from "@/components/ContactSection";
 import quemSomosBg from "@/assets/quem-somos-bg.webp";
 import solucoesBg from "@/assets/solucoes-hero-bg.png";
+import officeImg from "@/assets/quem-somos-office.webp";
 
 const QuemSomos = () => {
   return (
