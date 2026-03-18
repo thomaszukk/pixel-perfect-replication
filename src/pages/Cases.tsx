@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CaseEnergiaPageSection from "@/components/CaseEnergiaPageSection";
+import CaseTelecomPageSection from "@/components/CaseTelecomPageSection";
 import solucoesBg from "@/assets/solucoes-hero-bg.png";
 
 const Cases = () => {
@@ -24,6 +25,7 @@ const Cases = () => {
       </section>
 
       <CaseEnergiaPageSection />
+      <CaseTelecomPageSection />
 
       <Footer />
     </div>
