@@ -10,7 +10,7 @@ const navItems = [
   { label: "Indústrias", href: "/industrias" },
   { label: "Cases", href: "/cases" },
   { label: "Quem Somos", href: "/quem-somos" },
-  { label: "Contato", href: "#contato" },
+  { label: "Contato", href: "/contato" },
 ];
 
 const Navbar = () => {
