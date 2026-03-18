@@ -229,6 +229,70 @@ const QuemSomos = () => {
         </div>
       </section>
 
+      {/* Política de Segurança da Informação */}
+      <section className="w-full bg-white">
+        <div className="flex flex-col md:flex-row">
+          {/* Left: Content */}
+          <div className="w-full md:w-[60%] flex items-center px-8 py-16 md:px-16 lg:px-24">
+            <div className="max-w-[600px]">
+              <h2
+                className="text-[36px] md:text-[48px] font-bold leading-[1.14] mb-8"
+                style={{ color: "#0B132B", fontFamily: "'Poppins', sans-serif" }}
+              >
+                Política de Segurança da Informação
+              </h2>
+
+              <p
+                className="text-[16px] font-light leading-[1.4] mb-6"
+                style={{ color: "#0B132B", fontFamily: "'Poppins', sans-serif" }}
+              >
+                A ZUKK reconhece que a informação é um ativo essencial para o funcionamento de seus negócios e para a confiança de clientes, parceiros e colaboradores.
+              </p>
+
+              <p
+                className="text-[16px] font-light leading-[1.4] mb-6"
+                style={{ color: "#0B132B", fontFamily: "'Poppins', sans-serif" }}
+              >
+                Nossa Política de Segurança da Informação tem como objetivo garantir a <strong className="font-semibold">confidencialidade, integridade e disponibilidade</strong> das informações tratadas pela empresa, assegurando que dados e sistemas sejam utilizados de forma <strong className="font-semibold">segura, responsável e em conformidade</strong> com a legislação aplicável.
+              </p>
+
+              <p
+                className="text-[16px] font-light leading-[1.4] mb-8"
+                style={{ color: "#0B132B", fontFamily: "'Poppins', sans-serif" }}
+              >
+                Confira abaixo nossa política atualizada em Março/2026
+              </p>
+
+              <div className="flex items-center gap-4">
+                <span
+                  className="text-[14px] font-semibold"
+                  style={{ color: "#0B132B", fontFamily: "'Poppins', sans-serif" }}
+                >
+                  PO-SI-01_Política de Segurança da Informação
+                </span>
+                <a
+                  href="#"
+                  className="px-5 py-2 rounded-full border text-[14px] font-medium hover:opacity-80 transition-opacity"
+                  style={{ borderColor: "#0B132B", color: "#0B132B", fontFamily: "'Poppins', sans-serif" }}
+                >
+                  Baixar
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Right: Image */}
+          <div className="w-full md:w-[40%] min-h-[350px] md:min-h-[535px] relative">
+            <img
+              src={politicaSegurancaImg}
+              alt="Segurança da Informação - Cloud e geolocalização"
+              className="w-full h-full object-cover"
+              style={{ position: "absolute", inset: 0 }}
+            />
+          </div>
+        </div>
+      </section>
+
       <Footer />
     </div>
   );
