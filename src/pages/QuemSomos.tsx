@@ -294,6 +294,25 @@ const QuemSomos = () => {
         </div>
       </section>
 
+      {/* CTA Section */}
+      <section className="w-full bg-white py-16">
+        <div className="max-w-[1232px] mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-8">
+          <p
+            className="text-[24px] md:text-[28px] font-light leading-[1.4] max-w-[500px]"
+            style={{ color: "#0B132B", fontFamily: "'Poppins', sans-serif" }}
+          >
+            Onde a <strong className="font-bold">ZUKK</strong> está, há <strong className="font-bold">inteligência de localização</strong> fazendo a diferença.
+          </p>
+          <Link
+            to="/solucoes"
+            className="px-8 py-4 text-[14px] font-semibold uppercase tracking-widest text-white hover:opacity-90 transition-opacity"
+            style={{ background: "#0B132B", fontFamily: "'Poppins', sans-serif", letterSpacing: "2px" }}
+          >
+            Conheça Nossas Soluções
+          </Link>
+        </div>
+      </section>
+
       <Footer />
     </div>
   );
