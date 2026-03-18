@@ -47,8 +47,9 @@ const items = [
 
 const CaseEnergiaPageSection = () => {
   return (
-    <section className="w-full flex justify-center pt-[60px]">
-      <div className="max-w-[1232px] w-full px-6">
+    <section className="w-full pt-[60px]">
+      <div className="max-w-[1232px] w-full ml-auto mr-auto md:ml-0 md:mr-auto md:max-w-none md:pl-0 md:pr-0">
+        <div className="md:max-w-[1232px] md:ml-[calc((100%-1232px)/2)] w-full">
         <div className="flex flex-col md:flex-row gap-0">
           {/* Left - Image */}
           <div
