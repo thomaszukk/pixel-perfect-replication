@@ -24,6 +24,7 @@ const Cases = () => {
         />
       </section>
 
+      <div className="pt-[60px]" />
       <CaseEnergiaPageSection />
       <CaseTelecomPageSection />
 
