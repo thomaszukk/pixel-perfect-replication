@@ -5,6 +5,7 @@ import quemSomosBg from "@/assets/quem-somos-bg.webp";
 import solucoesBg from "@/assets/solucoes-hero-bg.png";
 import officeImg from "@/assets/quem-somos-office.webp";
 import nossaCulturaImg from "@/assets/nossa-cultura.jpeg";
+import nossoCompromissoImg from "@/assets/nosso-compromisso.webp";
 
 const QuemSomos = () => {
   return (
@@ -182,6 +183,47 @@ const QuemSomos = () => {
               className="w-full h-full object-cover"
               style={{ position: "absolute", inset: 0 }}
             />
+          </div>
+        </div>
+      </section>
+
+      {/* Nosso Compromisso Section */}
+      <section className="w-full" style={{ background: "#0B132B" }}>
+        <div className="flex flex-col md:flex-row">
+          {/* Left: Image */}
+          <div className="w-full md:w-1/2 min-h-[350px] md:min-h-[536px] relative">
+            <img
+              src={nossoCompromissoImg}
+              alt="Nosso Compromisso"
+              className="w-full h-full object-cover"
+              style={{ position: "absolute", inset: 0 }}
+            />
+          </div>
+
+          {/* Right: Content */}
+          <div className="w-full md:w-1/2 flex items-center px-8 py-16 md:px-16 lg:px-24">
+            <div className="max-w-[500px]">
+              <h2
+                className="text-[36px] md:text-[48px] font-bold leading-[1.14] mb-8"
+                style={{ color: "#FFFFFF", fontFamily: "'Poppins', sans-serif" }}
+              >
+                Nosso Compromisso
+              </h2>
+
+              <p
+                className="text-[16px] font-light leading-[1.4] mb-8"
+                style={{ color: "#FFFFFF", fontFamily: "'Poppins', sans-serif" }}
+              >
+                Na ZUKK, <strong className="font-semibold">cada projeto é único</strong>. Somos parceiros próximos, com mentalidade ágil e visão de negócio. Mais do que tecnologia, entregamos inteligência aplicada ao território com impacto direto nos resultados dos nossos clientes.
+              </p>
+
+              <p
+                className="text-[16px] font-bold italic leading-[1.4]"
+                style={{ color: "#FFD700", fontFamily: "'Poppins', sans-serif" }}
+              >
+                "A ZUKK é uma boutique de tecnologia que tem como seu principal diferencial a inteligência geográfica para auxiliar no negócio dos seus clientes."
+              </p>
+            </div>
           </div>
         </div>
       </section>
