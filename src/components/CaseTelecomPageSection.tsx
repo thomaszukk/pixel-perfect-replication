@@ -108,7 +108,7 @@ const CaseTelecomPageSection = () => {
         </div>
 
         {/* Right - Image (same logic as home page) */}
-        <div className="w-full md:w-1/2 h-[300px] md:h-[616px] relative overflow-hidden" style={{ backgroundColor: "#0B132B" }}>
+        <div className="w-full md:w-1/2 h-[300px] md:h-[520px] relative overflow-hidden" style={{ backgroundColor: "#0B132B" }}>
           <img
             src={caseTelecomImg}
             alt="Case Telecom - Globo digital com redes de conexão"
