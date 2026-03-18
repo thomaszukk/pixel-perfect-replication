@@ -51,7 +51,7 @@ const CaseEnergiaPageSection = () => {
       <div className="w-full">
         <div className="flex flex-col md:flex-row gap-0 items-stretch">
           {/* Left - Image */}
-          <div className="w-full md:w-1/2 h-[300px] md:min-h-[520px] relative">
+          <div className="w-full md:w-1/2 h-[300px] md:h-auto md:min-h-[520px] relative">
             <img
               src={caseEnergia}
               alt="Case Energia - Turbinas eólicas ao pôr do sol"
