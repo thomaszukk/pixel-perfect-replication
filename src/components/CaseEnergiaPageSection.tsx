@@ -55,7 +55,7 @@ const CaseEnergiaPageSection = () => {
             <img
               src={caseEnergia}
               alt="Case Energia - Turbinas eólicas ao pôr do sol"
-              className="w-full h-full object-cover rounded-tr-[40px] object-[30%_center]"
+              className="w-full h-full object-cover rounded-tr-[40px] object-left"
               style={{ position: "absolute", inset: 0 }}
             />
           </div>
